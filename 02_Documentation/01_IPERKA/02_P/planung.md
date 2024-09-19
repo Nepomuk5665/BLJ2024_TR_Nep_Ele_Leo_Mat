@@ -1,17 +1,22 @@
 # P – Planung
 
 ## Wer macht was
-Nepomuk\n
-• Summieren
-• Subtrahieren
-Eleonora
-• Dividieren
-• Multiplizieren
-Mattia
-• Exponenten
-• Wurzeln
-Leonhart
-• Fakultät
+
+**Nepomuk**  
+• Summieren  
+• Subtrahieren  
+
+**Eleonora**  
+• Dividieren  
+• Multiplizieren  
+
+**Mattia**  
+• Exponenten  
+• Wurzeln  
+
+**Leonhart**  
+• Fakultät  
+
 
 ## Priorität
 1. Pflichtaufgaben und eine Wahlaufgabe
