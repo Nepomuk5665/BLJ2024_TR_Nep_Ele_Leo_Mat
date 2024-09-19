@@ -1,14 +1,15 @@
 # I – Informieren
 
 ## Was wir machen
-Wir programmieren einen Taschenrechner in C der diese Sachen machen sollte:
-• Summieren
-• Subtrahieren
-• Dividieren
-• Multiplizieren
-• Exponenten
-• Wurzeln
-• Fakultät
+Wir programmieren einen Taschenrechner in C, der diese Funktionen haben sollte:  
+• Summieren  
+• Subtrahieren  
+• Dividieren  
+• Multiplizieren  
+• Exponenten  
+• Wurzeln  
+• Fakultät  
+
 
 ## Wer wird es nutzen?
 Wahrscheindlich niemand aber wir werden es für die Präsentation benützen
