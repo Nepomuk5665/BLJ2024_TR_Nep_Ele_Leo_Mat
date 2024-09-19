@@ -1,1 +1,5 @@
+# E – Entscheiden
 
+## 
+Nepomuk
+• Summieren
