@@ -1,1 +1,15 @@
 ----
+- Taschenrechner machen ohne math.h
+- Mindestens:
+	+
+	-
+	*
+	/
+	^
+	sqrt
+	!
+- Add ons:
+	Algebra
+	Geometrie
+	Life-Science
+	Schere-Stein-Papier
