@@ -1,12 +1,26 @@
 # I – Informieren
 
 ## Was wir machen
-Wir bauen einen Taschenrechner in C. Aber nicht so einen langweiligen über die Konsole, sondern mit einer richtigen Benutzeroberfläche (UI), wo man auf Buttons klicken kann.
+Wir programmieren einen Taschenrechner in C der diese Sachen machen sollte:
+• Summieren
+• Subtrahieren
+• Dividieren
+• Multiplizieren
+• Exponenten
+• Wurzeln
+• Fakultät
 
-## Tools, die wir nutzen
-- **Visual Studio Code**: Zum Coden, weil es einfach nice ist.
-- **C**: Die Sprache, die wir dafür verwenden.
+## Wer wird es nutzen?
+Wahrscheindlich niemand aber wir werden es für die Präsentation benützen
 
-## Warum?
-Weil's cooler ist, wenn man was anklicken kann, anstatt alles über die Konsole zu tippen. Macht einfach mehr Spaß und sieht besser aus.
+## Bis wann
+Wir müssen es bis 26.09.2024 bis 10Uhr abgeben.
+
+## Wie abgeben
+In GitHub pushen.
+
+## Was muss man können?
+• Funktionen
+• Operatoren
+• Grundlagen C
 
