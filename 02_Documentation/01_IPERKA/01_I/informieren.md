@@ -14,7 +14,7 @@ Wir programmieren einen Taschenrechner in C der diese Sachen machen sollte:
 Wahrscheindlich niemand aber wir werden es für die Präsentation benützen
 
 ## Bis wann
-Wir müssen es bis 26.09.2024 bis 10Uhr abgeben.
+Wir müssen es bis 26.09.2024 bis 11Uhr abgeben.
 
 ## Wie abgeben
 In GitHub pushen.
