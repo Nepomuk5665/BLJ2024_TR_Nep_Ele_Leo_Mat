@@ -1,7 +1,7 @@
 # P – Planung
 
 ## Wer macht was
-Nepomuk
+Nepomuk\n
 • Summieren
 • Subtrahieren
 Eleonora
