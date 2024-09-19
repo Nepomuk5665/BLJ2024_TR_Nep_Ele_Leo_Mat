@@ -1,4 +1,4 @@
-# I – Planung
+# P – Planung
 
 ## Wer macht was
 Nepomuk
