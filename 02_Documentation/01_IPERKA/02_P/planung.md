@@ -14,7 +14,7 @@
 • Exponenten  
 • Wurzeln  
 
-**Leonhart**  
+**Leonhard**  
 • Fakultät  
 
 
