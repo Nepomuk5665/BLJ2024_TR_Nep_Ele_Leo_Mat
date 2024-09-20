@@ -12,4 +12,4 @@ Dann habe ich die Funktionen im File `clac.h` initialisiert:
 
 ![Initialisiert](https://github.com/user-attachments/assets/a1c3b3c6-2b43-40d6-97bb-ec465c130155)
 
-Schließlich habe ich einen einfachen Code geschrieben, der die oben erstellten Funktionen verwendet. Somit habe ich [Issue #1 Summieren](https://github.com/Nepomuk5665/BLJ2024_TR_Nep_Ele_Leo_Mat/issues/1) und [Issue #2 Subtrahieren](https://github.com/Nepomuk5665/BLJ2024_TR_Nep_Ele_Leo_Mat/issues/2) gelöst.
+Schließlich habe ich einen einfachen [Code](https://github.com/Nepomuk5665/BLJ2024_TR_Nep_Ele_Leo_Mat/blob/main/01_Code/Nepomuk/calc/main.c) geschrieben, der die oben erstellten Funktionen verwendet. Somit habe ich [Issue #1 Summieren](https://github.com/Nepomuk5665/BLJ2024_TR_Nep_Ele_Leo_Mat/issues/1) und [Issue #2 Subtrahieren](https://github.com/Nepomuk5665/BLJ2024_TR_Nep_Ele_Leo_Mat/issues/2) gelöst.
