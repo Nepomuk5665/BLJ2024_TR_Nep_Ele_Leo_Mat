@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/nepomukcrhonek/Documents/GitHub/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Nepomuk/combined -B /Users/nepomukcrhonek/Documents/GitHub/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Nepomuk/combined/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (3.0s)
+-- Build files have been written to: /Users/nepomukcrhonek/Documents/GitHub/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Nepomuk/combined/cmake-build-debug
