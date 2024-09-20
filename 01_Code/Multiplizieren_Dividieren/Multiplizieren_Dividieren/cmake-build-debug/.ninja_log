@@ -1,0 +1,15 @@
+# ninja log v6
+102	380	7485170447028364	CMakeFiles/Multiplizieren_Dividieren.dir/main.c.obj	258551c60a228137
+381	1003	7485170449822867	Multiplizieren_Dividieren.exe	c981575b40fb4747
+39	269	7485189701571451	CMakeFiles/Multiplizieren_Dividieren.dir/calc.c.obj	b16dfd486fd29101
+270	727	7485189703870678	Multiplizieren_Dividieren.exe	f848772b696d1028
+40	190	7485201829135141	CMakeFiles/Multiplizieren_Dividieren.dir/calc.c.obj	b16dfd486fd29101
+31	192	7485201829032581	CMakeFiles/Multiplizieren_Dividieren.dir/main.c.obj	258551c60a228137
+192	334	7485201830650017	Multiplizieren_Dividieren.exe	f848772b696d1028
+54	306	7485205541105293	CMakeFiles/Multiplizieren_Dividieren.dir/main.c.obj	258551c60a228137
+80	359	7485205541366810	CMakeFiles/Multiplizieren_Dividieren.dir/calc.c.obj	b16dfd486fd29101
+359	496	7485205544141985	Multiplizieren_Dividieren.exe	f848772b696d1028
+52	260	7485206014074185	CMakeFiles/Multiplizieren_Dividieren.dir/main.c.obj	258551c60a228137
+16	119	7485207074224891	CMakeFiles/Multiplizieren_Dividieren.dir/calc.c.obj	b16dfd486fd29101
+6	136	7485207074121973	CMakeFiles/Multiplizieren_Dividieren.dir/main.c.obj	258551c60a228137
+136	286	7485207075425759	Multiplizieren_Dividieren.exe	f848772b696d1028
