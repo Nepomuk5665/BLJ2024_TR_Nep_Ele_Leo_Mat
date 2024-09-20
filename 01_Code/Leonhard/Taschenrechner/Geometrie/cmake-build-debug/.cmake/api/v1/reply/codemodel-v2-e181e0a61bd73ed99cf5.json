@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Geometrie::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Geometrie-Debug-95f515b9f46a3c741323.json",
+					"jsonFile" : "target-Geometrie-Debug-a0cbadd85f859c813ff1.json",
 					"name" : "Geometrie",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Projects/C/Taschenrechner/Geometrie/cmake-build-debug",
-		"source" : "C:/Projects/C/Taschenrechner/Geometrie"
+		"build" : "C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Geometrie/cmake-build-debug",
+		"source" : "C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Geometrie"
 	},
 	"version" : 
 	{

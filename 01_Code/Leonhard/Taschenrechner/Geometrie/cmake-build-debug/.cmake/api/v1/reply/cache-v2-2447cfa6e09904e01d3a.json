@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Projects/C/Taschenrechner/Geometrie/cmake-build-debug"
+			"value" : "c:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Geometrie/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Projects/C/Taschenrechner/Geometrie/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Geometrie/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Projects/C/Taschenrechner/Geometrie"
+			"value" : "C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Geometrie"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1135,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Projects/C/Taschenrechner/Geometrie/cmake-build-debug"
+			"value" : "C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Geometrie/cmake-build-debug"
 		},
 		{
 			"name" : "Geometrie_IS_TOP_LEVEL",
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Projects/C/Taschenrechner/Geometrie"
+			"value" : "C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Geometrie"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

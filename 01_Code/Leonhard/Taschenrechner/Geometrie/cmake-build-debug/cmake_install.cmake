@@ -1,4 +1,4 @@
-# Install script for directory: C:/Projects/C/Taschenrechner/Geometrie
+# Install script for directory: C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Geometrie
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Projects/C/Taschenrechner/Geometrie/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Geometrie/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

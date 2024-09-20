@@ -1,3 +1,3 @@
-C:/Projects/C/Taschenrechner/Geometrie/cmake-build-debug/CMakeFiles/Geometrie.dir
-C:/Projects/C/Taschenrechner/Geometrie/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Projects/C/Taschenrechner/Geometrie/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Geometrie/cmake-build-debug/CMakeFiles/Geometrie.dir
+C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Geometrie/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Geometrie/cmake-build-debug/CMakeFiles/rebuild_cache.dir
