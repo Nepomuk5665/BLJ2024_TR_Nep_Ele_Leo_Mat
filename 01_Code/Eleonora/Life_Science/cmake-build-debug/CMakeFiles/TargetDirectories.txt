@@ -1,0 +1,3 @@
+C:/Users/Eleonora/CLionProjects/Life_Science/cmake-build-debug/CMakeFiles/Life_Science.dir
+C:/Users/Eleonora/CLionProjects/Life_Science/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Eleonora/CLionProjects/Life_Science/cmake-build-debug/CMakeFiles/rebuild_cache.dir
