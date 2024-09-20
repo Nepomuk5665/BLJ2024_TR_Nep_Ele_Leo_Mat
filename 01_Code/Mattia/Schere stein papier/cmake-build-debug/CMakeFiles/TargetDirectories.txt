@@ -1,0 +1,3 @@
+C:/Users/matti/CLionProjects/Schere stein papier/cmake-build-debug/CMakeFiles/Schere_stein_papier.dir
+C:/Users/matti/CLionProjects/Schere stein papier/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/matti/CLionProjects/Schere stein papier/cmake-build-debug/CMakeFiles/rebuild_cache.dir
