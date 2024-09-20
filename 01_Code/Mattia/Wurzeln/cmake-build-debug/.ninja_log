@@ -1,0 +1,6 @@
+# ninja log v6
+4	56	7485193397187645	CMakeFiles/Wurzeln.dir/main.c.obj	deeb0b708eff4585
+57	121	7485193397711342	Wurzeln.exe	6a6d9bb86a4a82d7
+3	86	7485242837803234	CMakeFiles/Wurzeln.dir/main.c.obj	deeb0b708eff4585
+10	87	7485242837874987	CMakeFiles/Wurzeln.dir/calc.c.obj	1a9e255964e74d1b
+87	204	7485242838647365	Wurzeln.exe	466e561d775bb42a

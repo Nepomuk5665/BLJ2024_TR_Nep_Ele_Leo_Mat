@@ -1,0 +1,3 @@
+C:/Users/matti/CLionProjects/Wurzeln/cmake-build-debug/CMakeFiles/Wurzeln.dir
+C:/Users/matti/CLionProjects/Wurzeln/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/matti/CLionProjects/Wurzeln/cmake-build-debug/CMakeFiles/rebuild_cache.dir
