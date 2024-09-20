@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Projects/C/Taschenrechner/Fakutaet/cmake-build-debug"
+			"value" : "c:/Projects/C/Taschenrechner/Fakultaet/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Projects/C/Taschenrechner/Fakutaet/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Projects/C/Taschenrechner/Fakultaet/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Projects/C/Taschenrechner/Fakutaet"
+			"value" : "C:/Projects/C/Taschenrechner/Fakultaet"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1135,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Projects/C/Taschenrechner/Fakutaet/cmake-build-debug"
+			"value" : "C:/Projects/C/Taschenrechner/Fakultaet/cmake-build-debug"
 		},
 		{
 			"name" : "Fakutaet_IS_TOP_LEVEL",
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Projects/C/Taschenrechner/Fakutaet"
+			"value" : "C:/Projects/C/Taschenrechner/Fakultaet"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
