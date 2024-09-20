@@ -33,3 +33,6 @@
 1. Pflichtaufgaben (20.09.24)
 2. Wahlaufgaben (25.09.24)
 3. Präsentation (26.09.24)
+
+## Deadline
+26.09.24
