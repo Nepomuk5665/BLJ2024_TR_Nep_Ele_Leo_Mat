@@ -4,11 +4,11 @@ Zuerst habe ich ein neues Source-File erstellt, damit alle Funktionen schön ang
 
 ![New C Source File](https://github.com/user-attachments/assets/4a59a03d-5104-44ef-bafa-2142db7fb5ae)
 
-Dann habe ich neue Funktionen in `clalc.c` von den Funktionen definiert:
+Dann habe ich neue Funktionen in `calc.c` von den Funktionen definiert:
 
 ![Created by](https://github.com/user-attachments/assets/69d9a613-4258-4511-a577-a86bb62e2823)
 
-Dann habe ich die Funktionen im File `clac.h` initialisiert:
+Dann habe ich die Funktionen im File `calc.h` initialisiert:
 
 ![Initialisiert](https://github.com/user-attachments/assets/a1c3b3c6-2b43-40d6-97bb-ec465c130155)
 
