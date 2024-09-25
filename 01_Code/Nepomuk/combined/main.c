@@ -2,16 +2,23 @@
 #include <string.h>
 #include "calc.h"
 
-void zeige_menue() {
-    printf("\nWillkommen beim besten Taschenrechner!\n");
+void zeige_hauptmenue() {
+    printf("\nWillkommen zum besten Taschenrechner und Wissenschaft des Lebens!\n");
     printf("Wähle mit der Zahl, was du machen willst:\n");
+    printf("1. Taschenrechner\n");
+    printf("2. Life Science\n");
+    printf("3. Beenden\n");
+}
+
+void zeige_taschenrechner_menue() {
+    printf("\nTaschenrechner-Menü:\n");
     printf("1. Addieren\n");
     printf("2. Subtrahieren\n");
     printf("3. Multiplizieren\n");
     printf("4. Dividieren\n");
     printf("5. Flächenberechnungen\n");
     printf("6. Volumenberechnungen\n");
-    printf("7. Beenden\n");
+    printf("7. Zurück zum Hauptmenü\n");
 }
 
 void bearbeite_grundoperation(int operation) {
@@ -137,28 +144,114 @@ void bearbeite_volumenberechnungen() {
     printf("Volumen: %.2f\n", ergebnis);
 }
 
-int main() {
+void wissenschaft_des_lebens() {
     int wahl;
+    int Alkohol;
+    int Gewicht;
+    float Geschlecht;
+    int Grösse;
+    float resultat;
+    int Aufstehzeit;
+    int Schlafzeit;
+    int Alter;
+
+    printf("Wilkommen im Sience of Life Rechner\n");
+    printf("1. Body-Mass-Index Rechner\n2. Alkoholpromillerechner\n3. Schlafrechner\n4. Kalorienrechner\n");
+    scanf("%d", &wahl);
+
+    switch (wahl) {
+        case 1:
+            printf("Gewicht:");
+            scanf("%d", &Gewicht);
+            printf("Grösse:");
+            scanf("%d", &Grösse);
+            resultat = bmi(Gewicht, Grösse);
+            break;
+        case 2:
+            printf("Alcohol:");
+            scanf("%d", &Alkohol);
+            printf("Gewicht:");
+            scanf("%d", &Gewicht);
+            printf("Geschlecht: 1=Mann 2=Frau");
+            int genderInput;
+            scanf("%d", &genderInput);
+            if (genderInput == 1) {
+                Geschlecht = 0.7f;
+            } else if (genderInput == 2) {
+                Geschlecht = 0.6f;
+            }
+            resultat = wid1(Alkohol, Gewicht, Geschlecht);
+            break;
+        case 3:
+            printf("Aufstehzeit:");
+            scanf("%d", &Aufstehzeit);
+            printf("Schlafzeit:");
+            scanf("%d", &Schlafzeit);
+            resultat = schlaf(Aufstehzeit, Schlafzeit);
+            break;
+        case 4:
+            printf("Gewicht:");
+            scanf("%d", &Gewicht);
+            printf("Grösse:");
+            scanf("%d", &Grösse);
+            printf("Alter: ");
+            scanf("%d", &Alter);
+            printf("Geschlecht: 1=Mann 2=Frau");
+            scanf("%d", &genderInput);
+            if (genderInput == 1) {
+                Geschlecht = 88.36;
+                resultat = BMR1(Geschlecht, Gewicht, Grösse, Alter);
+            } else if (genderInput == 2) {
+                Geschlecht = 447.6;
+                resultat = BMR2(Geschlecht, Gewicht, Grösse, Alter);
+            }
+            break;
+        default:
+            printf("Ungültige Auswahl\n");
+            return;
+    }
+    printf("Resultat: %.2f\n", resultat);
+}
+
+int main() {
+    int hauptwahl, taschenrechnerwahl;
 
     while(1) {
-        zeige_menue();
+        zeige_hauptmenue();
         printf("Deine Wahl: ");
-        scanf("%d", &wahl);
+        scanf("%d", &hauptwahl);
 
-        switch(wahl) {
+        switch(hauptwahl) {
             case 1:
+                do {
+                    zeige_taschenrechner_menue();
+                    printf("Deine Wahl: ");
+                    scanf("%d", &taschenrechnerwahl);
+
+                    switch(taschenrechnerwahl) {
+                        case 1:
+                        case 2:
+                        case 3:
+                        case 4:
+                            bearbeite_grundoperation(taschenrechnerwahl);
+                            break;
+                        case 5:
+                            bearbeite_flaechenberechnungen();
+                            break;
+                        case 6:
+                            bearbeite_volumenberechnungen();
+                            break;
+                        case 7:
+                            break;
+                        default:
+                            printf("Ungültige Auswahl. Bitte versuche es erneut.\n");
+                    }
+                } while(taschenrechnerwahl != 7);
+                break;
             case 2:
+                wissenschaft_des_lebens();
+                break;
             case 3:
-            case 4:
-                bearbeite_grundoperation(wahl);
-                break;
-            case 5:
-                bearbeite_flaechenberechnungen();
-                break;
-            case 6:
-                bearbeite_volumenberechnungen();
-                break;
-            case 7:
                 printf("Auf Wiedersehen!\n");
                 return 0;
             default:

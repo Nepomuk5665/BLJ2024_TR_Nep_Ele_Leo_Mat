@@ -23,4 +23,11 @@ double volumen_quader(double a, double b, double hoehe);
 double volumen_zylinder(double radius, double hoehe);
 double volumen_kegel(double radius, double hoehe);
 
+// Science of Life Funktionen
+float bmi(int a, int b);
+float wid1(int a, int b, float r);
+float BMR1(float a, int e, int f, int g);
+float BMR2(float a, int e, int f, int g);
+int schlaf(int a, int b);
+
 #endif // CALC_H
