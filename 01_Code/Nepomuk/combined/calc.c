@@ -66,29 +66,54 @@ double volumen_kegel(double radius, double hoehe) {
 }
 
 // Science of Life Funktionen
-float bmi(int a, int b) {
-    return (float)a / ((float)b/100 * (float)b/100);
+float bmi(int gewicht, int groesse) {
+    return (float)gewicht / ((float)groesse/100 * (float)groesse/100);
 }
 
-float wid1(int a, int b, float r) {
-    return (float)a / (b * r);
+float wid1(int alkohol, int gewicht, float geschlecht) {
+    return (float)alkohol / (gewicht * geschlecht);
 }
 
-float BMR1(float a, int e, int f, int g) {
+float BMR1(float geschlecht, int gewicht, int groesse, int alter) {
     float b = 13.4;
     float c = 4.8;
     float d = 5.7;
-    return a + (b * e) + (c * f) - (d * g);
+    return geschlecht + (b * gewicht) + (c * groesse) - (d * alter);
 }
 
-float BMR2(float a, int e, int f, int g) {
+float BMR2(float geschlecht, int gewicht, int groesse, int alter) {
     float b = 9.2;
     float c = 3.1;
     float d = 4.3;
-    return a + (b * e) + (c * f) - (d * g);
+    return geschlecht + (b * gewicht) + (c * groesse) - (d * alter);
 }
 
-int schlaf(int a, int b) {
+int schlaf(int aufstehzeit, int schlafzeit) {
     int c = 12;
-    return (a + c) - b;
+    return (aufstehzeit + c) - schlafzeit;
+}
+
+// Newton-Raphson-Verfahren zur Berechnung der Quadratwurzel
+double sqrt_custom(double number) {
+    if (number < 0) {
+        return -1; // Fehler: Keine Wurzel für negative Zahlen
+    }
+
+    double guess = number / 2.0; // Anfangsschätzung
+    double epsilon = 0.00001;    // Toleranz für das Ergebnis
+
+    while ((guess * guess - number) > epsilon || (number - guess * guess) > epsilon) {
+        guess = (guess + number / guess) / 2.0;
+    }
+
+    return guess;
+}
+
+// Funktion zur Berechnung der Potenz (Basis hoch Exponent)
+int power(int base, int exponent) {
+    int result = 1;
+    for (int i = 0; i < exponent; i++) {
+        result *= base;
+    }
+    return result;
 }

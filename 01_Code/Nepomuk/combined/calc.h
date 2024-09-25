@@ -24,10 +24,14 @@ double volumen_zylinder(double radius, double hoehe);
 double volumen_kegel(double radius, double hoehe);
 
 // Science of Life Funktionen
-float bmi(int a, int b);
-float wid1(int a, int b, float r);
-float BMR1(float a, int e, int f, int g);
-float BMR2(float a, int e, int f, int g);
-int schlaf(int a, int b);
+float bmi(int gewicht, int groesse);
+float wid1(int alkohol, int gewicht, float geschlecht);
+float BMR1(float geschlecht, int gewicht, int groesse, int alter);
+float BMR2(float geschlecht, int gewicht, int groesse, int alter);
+int schlaf(int aufstehzeit, int schlafzeit);
+
+// Zusätzliche mathematische Funktionen
+double sqrt_custom(double number);
+int power(int base, int exponent);
 
 #endif // CALC_H

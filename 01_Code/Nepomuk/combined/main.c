@@ -1,13 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include <string.h>
 #include "calc.h"
 
 void zeige_hauptmenue() {
-    printf("\nWillkommen zum besten Taschenrechner und Wissenschaft des Lebens!\n");
+    printf("\nWillkommen zum besten Taschenrechner und mehr!\n");
     printf("Wähle mit der Zahl, was du machen willst:\n");
     printf("1. Taschenrechner\n");
-    printf("2. Life Science\n");
-    printf("3. Beenden\n");
+    printf("2. Wissenschaft des Lebens\n");
+    printf("3. Schere, Stein, Papier\n");
+    printf("4. Quadratwurzel berechnen\n");
+    printf("5. Potenz berechnen\n");
+    printf("6. Beenden\n");
 }
 
 void zeige_taschenrechner_menue() {
@@ -155,7 +160,7 @@ void wissenschaft_des_lebens() {
     int Schlafzeit;
     int Alter;
 
-    printf("Wilkommen im Sience of Life Rechner\n");
+    printf("Welcome to the Science of Life\n");
     printf("1. Body-Mass-Index Rechner\n2. Alkoholpromillerechner\n3. Schlafrechner\n4. Kalorienrechner\n");
     scanf("%d", &wahl);
 
@@ -213,6 +218,76 @@ void wissenschaft_des_lebens() {
     printf("Resultat: %.2f\n", resultat);
 }
 
+void schere_stein_papier() {
+    int userChoice, computerChoice;
+
+    srand(time(NULL));
+
+    printf("Willkommen zu Schere, Stein, Papier!\n");
+    printf("Wähle eine Option:\n");
+    printf("1. Schere\n");
+    printf("2. Stein\n");
+    printf("3. Papier\n");
+    printf("Deine Wahl: ");
+
+    scanf("%d", &userChoice);
+
+    computerChoice = rand() % 3 + 1;
+
+    printf("Du hast gewählt: ");
+    switch (userChoice) {
+        case 1: printf("Schere\n"); break;
+        case 2: printf("Stein\n"); break;
+        case 3: printf("Papier\n"); break;
+        default: printf("Ungültige Wahl\n"); return;
+    }
+
+    printf("Der Computer hat gewählt: ");
+    switch (computerChoice) {
+        case 1: printf("Schere\n"); break;
+        case 2: printf("Stein\n"); break;
+        case 3: printf("Papier\n"); break;
+    }
+
+    if (userChoice == computerChoice) {
+        printf("Unentschieden!\n");
+    } else if ((userChoice == 1 && computerChoice == 3) ||
+               (userChoice == 2 && computerChoice == 1) ||
+               (userChoice == 3 && computerChoice == 2)) {
+        printf("Du gewinnst!\n");
+    } else {
+        printf("Der Computer gewinnt!\n");
+    }
+}
+
+void quadratwurzel_berechnen() {
+    double number;
+
+    printf("Gib eine Zahl ein: ");
+    scanf("%lf", &number);
+
+    double result = sqrt_custom(number);
+
+    if (result == -1) {
+        printf("Fehler: Die Zahl ist negativ.\n");
+    } else {
+        printf("Die Quadratwurzel von %.5f ist %.5f\n", number, result);
+    }
+}
+
+void potenz_berechnen() {
+    int base, exponent;
+
+    printf("Gib die Basis ein: ");
+    scanf("%d", &base);
+    printf("Gib den Exponenten ein: ");
+    scanf("%d", &exponent);
+
+    int result = power(base, exponent);
+
+    printf("%d hoch %d ist %d\n", base, exponent, result);
+}
+
 int main() {
     int hauptwahl, taschenrechnerwahl;
 
@@ -252,6 +327,15 @@ int main() {
                 wissenschaft_des_lebens();
                 break;
             case 3:
+                schere_stein_papier();
+                break;
+            case 4:
+                quadratwurzel_berechnen();
+                break;
+            case 5:
+                potenz_berechnen();
+                break;
+            case 6:
                 printf("Auf Wiedersehen!\n");
                 return 0;
             default:
