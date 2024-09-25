@@ -6,3 +6,7 @@ Dann habe ich mich für eine For Schleife entschieden um die Fakultät zu berech
 
 Anschliessend habe ich noch meinen User Input und Output gecoded.
 ![image](https://github.com/user-attachments/assets/021b6ee7-23ac-4172-b97d-129e91a8f59b)
+
+Anschliessend habe ich noch mit Sourcefiles meinen Code organisiert.
+
+Somit ist das [Issue #7 Fakultät](https://github.com/Nepomuk5665/BLJ2024_TR_Nep_Ele_Leo_Mat/issues/7) fertig.

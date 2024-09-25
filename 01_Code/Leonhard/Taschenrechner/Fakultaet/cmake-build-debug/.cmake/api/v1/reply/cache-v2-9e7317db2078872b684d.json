@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Projects/C/Taschenrechner/Geometrie/cmake-build-debug"
+			"value" : "c:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Fakultaet/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Projects/C/Taschenrechner/Geometrie/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Fakultaet/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Projects/C/Taschenrechner/Geometrie"
+			"value" : "C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Fakultaet"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Geometrie"
+			"value" : "C:/Program Files (x86)/Fakutaet"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -731,7 +731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Geometrie"
+			"value" : "Fakutaet"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1126,7 +1126,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Geometrie_BINARY_DIR",
+			"name" : "Fakutaet_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1135,10 +1135,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Projects/C/Taschenrechner/Geometrie/cmake-build-debug"
+			"value" : "C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Fakultaet/cmake-build-debug"
 		},
 		{
-			"name" : "Geometrie_IS_TOP_LEVEL",
+			"name" : "Fakutaet_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1150,7 +1150,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Geometrie_SOURCE_DIR",
+			"name" : "Fakutaet_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Projects/C/Taschenrechner/Geometrie"
+			"value" : "C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Fakultaet"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

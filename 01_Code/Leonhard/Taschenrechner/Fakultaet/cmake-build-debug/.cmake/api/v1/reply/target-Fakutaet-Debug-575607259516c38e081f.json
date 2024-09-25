@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "combined"
+			"path" : "Fakutaet.exe"
+		},
+		{
+			"path" : "Fakutaet.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -35,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics"
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "C",
@@ -54,7 +57,7 @@
 			]
 		}
 	],
-	"id" : "combined::@6890427a1f51a3e7e1df",
+	"id" : "Fakutaet::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -64,14 +67,18 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-L/opt/homebrew/opt/ruby/lib",
+				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
-	"name" : "combined",
-	"nameOnDisk" : "combined",
+	"name" : "Fakutaet",
+	"nameOnDisk" : "Fakutaet.exe",
 	"paths" : 
 	{
 		"build" : ".",

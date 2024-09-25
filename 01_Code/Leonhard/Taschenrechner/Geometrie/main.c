@@ -1,79 +1,79 @@
 #include <stdio.h>
-
-#define PI 3.14159265359  // Wir definieren PI selbst
-
-// Funktionen zur Flächenberechnung
-if (c == flaeche_kreis)
-double flaeche_kreis(double radius) {
-    return PI * radius * radius;  // Fläche des Kreises: PI * r^2
-}
-
-double flaeche_quadrat(double a) {
-    return a * a;  // Fläche des Quadrats: a^2
-}
-
-double flaeche_rechteck(double a, double b) {
-    return a * b;  // Fläche des Rechtecks: a * b
-}
-
-double flaeche_dreieck(double basis, double hoehe) {
-    return 0.5 * basis * hoehe;  // Fläche des Dreiecks: (1/2) * b * h
-}
-
-double flaeche_trapez(double a, double b, double hoehe) {
-    return 0.5 * (a + b) * hoehe;  // Fläche des Trapezes: (1/2) * (a + b) * h
-}
-
-// Funktionen zur Volumenberechnung
-
-double volumen_kugel(double radius) {
-    return (4.0 / 3.0) * PI * radius * radius * radius;  // Volumen der Kugel: (4/3) * PI * r^3
-}
-
-double volumen_wuerfel(double a) {
-    return a * a * a;  // Volumen des Würfels: a^3
-}
-
-double volumen_quader(double a, double b, double hoehe) {
-    return a * b * hoehe;  // Volumen des Quaders: a * b * h
-}
-
-double volumen_zylinder(double radius, double hoehe) {
-    return PI * radius * radius * hoehe;  // Volumen des Zylinders: PI * r^2 * h
-}
-
-double volumen_kegel(double radius, double hoehe) {
-    return (1.0 / 3.0) * PI * radius * radius * hoehe;  // Volumen des Kegels: (1/3) * PI * r^2 * h
-}
-
-// Hauptprogramm zur Demonstration
+#include <string.h>
+#include "calc.h"
 
 int main() {
-    // Beispielwerte
-    double radius = 3.0;
-    double a = 4.0;
-    double b = 5.0;
-    double hoehe = 6.0;
+    char auswahl[50];
+    double a, b, hoehe, radius;
 
+    printf("Wähle eine Berechnung aus:\n");
+    printf("1. flaeche_kreis\n");
+    printf("2. flaeche_quadrat\n");
+    printf("3. flaeche_rechteck\n");
+    printf("4. flaeche_dreieck\n");
+    printf("5. flaeche_trapez\n");
+    printf("6. volumen_kugel\n");
+    printf("7. volumen_wuerfel\n");
+    printf("8. volumen_quader\n");
+    printf("9. volumen_zylinder\n");
+    printf("10. volumen_kegel\n");
 
-    char type;
+    printf("\nBitte gib den Namen der Berechnung ein: ");
+    scanf("%s", auswahl);
 
-    printf("Was braucht du für ein Mass?");
-    scanf("%c", &type);
+    if (strcmp(auswahl, "flaeche_kreis") == 0) {
+        printf("Gib den Radius des Kreises ein: ");
+        scanf("%lf", &radius);
+        printf("Die Fläche des Kreises beträgt: %.2lf\n", flaeche_kreis(radius));
 
-    // Flächenberechnungen
-    printf("Fläche des Kreises: %.2lf\n", flaeche_kreis(radius));
-    printf("Fläche des Quadrats: %.2lf\n", flaeche_quadrat(a));
-    printf("Fläche des Rechtecks: %.2lf\n", flaeche_rechteck(a, b));
-    printf("Fläche des Dreiecks: %.2lf\n", flaeche_dreieck(b, hoehe));
-    printf("Fläche des Trapezes: %.2lf\n", flaeche_trapez(a, b, hoehe));
+    } else if (strcmp(auswahl, "flaeche_quadrat") == 0) {
+        printf("Gib die Seitenlänge des Quadrats ein: ");
+        scanf("%lf", &a);
+        printf("Die Fläche des Quadrats beträgt: %.2lf\n", flaeche_quadrat(a));
 
-    // Volumenberechnungen
-    printf("Volumen der Kugel: %.2lf\n", volumen_kugel(radius));
-    printf("Volumen des Würfels: %.2lf\n", volumen_wuerfel(a));
-    printf("Volumen des Quaders: %.2lf\n", volumen_quader(a, b, hoehe));
-    printf("Volumen des Zylinders: %.2lf\n", volumen_zylinder(radius, hoehe));
-    printf("Volumen des Kegels: %.2lf\n", volumen_kegel(radius, hoehe));
+    } else if (strcmp(auswahl, "flaeche_rechteck") == 0) {
+        printf("Gib die Länge und Breite des Rechtecks ein: ");
+        scanf("%lf %lf", &a, &b);
+        printf("Die Fläche des Rechtecks beträgt: %.2lf\n", flaeche_rechteck(a, b));
+
+    } else if (strcmp(auswahl, "flaeche_dreieck") == 0) {
+        printf("Gib die Basis und die Höhe des Dreiecks ein: ");
+        scanf("%lf %lf", &a, &hoehe);
+        printf("Die Fläche des Dreiecks beträgt: %.2lf\n", flaeche_dreieck(a, hoehe));
+
+    } else if (strcmp(auswahl, "flaeche_trapez") == 0) {
+        printf("Gib die beiden Basen und die Höhe des Trapezes ein: ");
+        scanf("%lf %lf %lf", &a, &b, &hoehe);
+        printf("Die Fläche des Trapezes beträgt: %.2lf\n", flaeche_trapez(a, b, hoehe));
+
+    } else if (strcmp(auswahl, "volumen_kugel") == 0) {
+        printf("Gib den Radius der Kugel ein: ");
+        scanf("%lf", &radius);
+        printf("Das Volumen der Kugel beträgt: %.2lf\n", volumen_kugel(radius));
+
+    } else if (strcmp(auswahl, "volumen_wuerfel") == 0) {
+        printf("Gib die Seitenlänge des Würfels ein: ");
+        scanf("%lf", &a);
+        printf("Das Volumen des Würfels beträgt: %.2lf\n", volumen_wuerfel(a));
+
+    } else if (strcmp(auswahl, "volumen_quader") == 0) {
+        printf("Gib die Länge, Breite und Höhe des Quaders ein: ");
+        scanf("%lf %lf %lf", &a, &b, &hoehe);
+        printf("Das Volumen des Quaders beträgt: %.2lf\n", volumen_quader(a, b, hoehe));
+
+    } else if (strcmp(auswahl, "volumen_zylinder") == 0) {
+        printf("Gib den Radius und die Höhe des Zylinders ein: ");
+        scanf("%lf %lf", &radius, &hoehe);
+        printf("Das Volumen des Zylinders beträgt: %.2lf\n", volumen_zylinder(radius, hoehe));
+
+    } else if (strcmp(auswahl, "volumen_kegel") == 0) {
+        printf("Gib den Radius und die Höhe des Kegels ein: ");
+        scanf("%lf %lf", &radius, &hoehe);
+        printf("Das Volumen des Kegels beträgt: %.2lf\n", volumen_kegel(radius, hoehe));
+
+    } else {
+        printf("Ungültige Auswahl!\n");
+    }
 
     return 0;
 }

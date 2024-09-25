@@ -1,10 +1,10 @@
-"C:\MyTools\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/MyTools/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Projects\C\Taschenrechner\Fakutaet -B C:\Projects\C\Taschenrechner\Fakutaet\cmake-build-debug
+"C:\MyTools\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/MyTools/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\leonhard.voelcker\OneDrive - EcoLogic AG\Desktop\Noser\BLJ2024_TR_Nep_Ele_Leo_Mat\01_Code\Leonhard\Taschenrechner\Fakultaet" -B "C:\Users\leonhard.voelcker\OneDrive - EcoLogic AG\Desktop\Noser\BLJ2024_TR_Nep_Ele_Leo_Mat\01_Code\Leonhard\Taschenrechner\Fakultaet\cmake-build-debug"
 -- The C compiler identification is GNU 13.1.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Check for working C compiler: C:/MyTools/CLion 2024.2.1/bin/mingw/bin/gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Configuring done (1.6s)
+-- Configuring done (5.9s)
 -- Generating done (0.0s)
--- Build files have been written to: C:/Projects/C/Taschenrechner/Fakutaet/cmake-build-debug
+-- Build files have been written to: C:/Users/leonhard.voelcker/OneDrive - EcoLogic AG/Desktop/Noser/BLJ2024_TR_Nep_Ele_Leo_Mat/01_Code/Leonhard/Taschenrechner/Fakultaet/cmake-build-debug
