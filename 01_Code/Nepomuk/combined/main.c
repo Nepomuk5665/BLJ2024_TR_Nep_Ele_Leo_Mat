@@ -29,8 +29,10 @@ void zeige_taschenrechner_menue() {
 
 void bearbeite_grundoperation(int operation) {
     int a, b, ergebnis;
+    fflush(stdin);
     printf("Erste Zahl: ");
     scanf("%d", &a);
+    fflush(stdin);
     printf("Zweite Zahl: ");
     scanf("%d", &b);
 
@@ -57,6 +59,7 @@ void bearbeite_flaechenberechnungen() {
     printf("\nFlächenberechnungen:\n");
     printf("1. Kreis\n2. Quadrat\n3. Rechteck\n4. Dreieck\n5. Trapez\n");
     printf("Wähle eine Form: ");
+    fflush(stdin);
     scanf("%d", &wahl);
 
     switch(wahl) {
@@ -107,6 +110,7 @@ void bearbeite_volumenberechnungen() {
     printf("\nVolumenberechnungen:\n");
     printf("1. Kugel\n2. Würfel\n3. Quader\n4. Zylinder\n5. Kegel\n");
     printf("Wähle eine Form: ");
+    fflush(stdin);
     scanf("%d", &wahl);
 
     switch(wahl) {
@@ -163,6 +167,7 @@ void wissenschaft_des_lebens() {
 
     printf("Welcome to the Science of Life\n");
     printf("1. Body-Mass-Index Rechner\n2. Alkoholpromillerechner\n3. Schlafrechner\n4. Kalorienrechner\n");
+    fflush(stdin);
     scanf("%d", &wahl);
 
     switch (wahl) {
@@ -230,7 +235,7 @@ void schere_stein_papier() {
     printf("2. Stein\n");
     printf("3. Papier\n");
     printf("Deine Wahl: ");
-
+    fflush(stdin);
     scanf("%d", &userChoice);
 
     computerChoice = rand() % 3 + 1;
@@ -265,6 +270,7 @@ void quadratwurzel_berechnen() {
     double number;
 
     printf("Gib eine Zahl ein: ");
+    fflush(stdin);
     scanf("%lf", &number);
 
     double result = sqrt_custom(number);
