@@ -17,8 +17,8 @@
 | 11  | Schlafrechner | Aufstehzeit: 7, Schlafzeit: 23 | 8                    |-4                        |
 | 12  | Kalorienrechner (Mann) | Gewicht: 75, Größe: 180, Alter: 30 | 1795.61 |1786.36                        |
 | 13  | Kalorienrechner (Frau) | Gewicht: 60, Größe: 165, Alter: 25 | 1417.23 |1403.6                        |
-| 14  | Flächenberechnung Trapez | a: 6, b: 8, h: 4 | 28                      |                        |
-| 15  | Volumenberechnung Kegel | Radius: 3, Höhe: 4 | 37.70                  |                        |
+| 14  | Flächenberechnung Trapez | a: 6, b: 8, h: 4 | 28                      |28                        |
+| 15  | Volumenberechnung Kegel | Radius: 3, Höhe: 4 | 37.70                  |37.70                        |
 
 
 
