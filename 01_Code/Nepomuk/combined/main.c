@@ -12,7 +12,8 @@ void zeige_hauptmenue() {
     printf("3. Schere, Stein, Papier\n");
     printf("4. Quadratwurzel berechnen\n");
     printf("5. Potenz berechnen\n");
-    printf("6. Beenden\n");
+    printf("6. Fakultät berechnen\n");
+    printf("7. Beenden\n");
 }
 
 void zeige_taschenrechner_menue() {
@@ -288,6 +289,21 @@ void potenz_berechnen() {
     printf("%d hoch %d ist %d\n", base, exponent, result);
 }
 
+void fakultaet_berechnen() {
+    int zahl;
+
+    printf("Geben Sie eine Zahl ein: ");
+    scanf("%d", &zahl);
+    if(zahl < 0) {
+        printf("Fakultät ist für negative Zahlen nicht definiert.\n");
+    } else if(zahl > 0) {
+        printf("Die Fakultaet von %d ist %llu.\n", zahl, berechne_fakultaet(zahl));
+    }
+    else if(zahl == 0) {
+        printf("Die Fakultaet von 0 ist 1.\n");
+    }
+}
+
 int main() {
     int hauptwahl, taschenrechnerwahl;
 
@@ -336,6 +352,9 @@ int main() {
                 potenz_berechnen();
                 break;
             case 6:
+                fakultaet_berechnen();
+                break;
+            case 7:
                 printf("Auf Wiedersehen!\n");
                 return 0;
             default:

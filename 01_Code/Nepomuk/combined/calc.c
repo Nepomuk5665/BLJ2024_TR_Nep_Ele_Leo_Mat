@@ -3,7 +3,6 @@
 #include <string.h>
 #include <ctype.h>
 
-// Grundlegende arithmetische Operationen
 int addiere(int a, int b) {
     return a + b;
 }
@@ -23,7 +22,6 @@ int dividiere(int a, int b) {
     return 0;
 }
 
-// Flächenberechnungen
 double flaeche_kreis(double radius) {
     return PI * radius * radius;
 }
@@ -44,7 +42,6 @@ double flaeche_trapez(double a, double b, double hoehe) {
     return 0.5 * (a + b) * hoehe;
 }
 
-// Volumenberechnungen
 double volumen_kugel(double radius) {
     return (4.0 / 3.0) * PI * radius * radius * radius;
 }
@@ -65,7 +62,6 @@ double volumen_kegel(double radius, double hoehe) {
     return (1.0 / 3.0) * PI * radius * radius * hoehe;
 }
 
-// Science of Life Funktionen
 float bmi(int gewicht, int groesse) {
     return (float)gewicht / ((float)groesse/100 * (float)groesse/100);
 }
@@ -93,14 +89,13 @@ int schlaf(int aufstehzeit, int schlafzeit) {
     return (aufstehzeit + c) - schlafzeit;
 }
 
-// Newton-Raphson-Verfahren zur Berechnung der Quadratwurzel
 double sqrt_custom(double number) {
     if (number < 0) {
-        return -1; // Fehler: Keine Wurzel für negative Zahlen
+        return -1;
     }
 
-    double guess = number / 2.0; // Anfangsschätzung
-    double epsilon = 0.00001;    // Toleranz für das Ergebnis
+    double guess = number / 2.0;
+    double epsilon = 0.00001;
 
     while ((guess * guess - number) > epsilon || (number - guess * guess) > epsilon) {
         guess = (guess + number / guess) / 2.0;
@@ -109,11 +104,18 @@ double sqrt_custom(double number) {
     return guess;
 }
 
-// Funktion zur Berechnung der Potenz (Basis hoch Exponent)
 int power(int base, int exponent) {
     int result = 1;
     for (int i = 0; i < exponent; i++) {
         result *= base;
     }
     return result;
+}
+
+unsigned long long int berechne_fakultaet(int n) {
+    unsigned long long int fakultaet = 1;
+    for(int i = 1; i <= n; i++) {
+        fakultaet *= i;
+    }
+    return fakultaet;
 }
