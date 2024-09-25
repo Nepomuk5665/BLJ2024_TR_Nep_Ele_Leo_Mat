@@ -5,6 +5,7 @@ Dann fing ich damit an, alle Rechner zu programmieren
 ![image](https://github.com/user-attachments/assets/ca1d8113-96a5-459b-9dc8-fdce173b9d45)
 
 Danach habe ich noch den Userinput programmiert, dort habe ich mich für eine Auswahl der möglichen Rechner entschieden.
+
 ![image](https://github.com/user-attachments/assets/901a4f07-128d-4506-bde8-ac191034b58d)
 
 Anschliessend musste ich noch die sachen kombinieren was ich mit simplen "if" befehlen gelöst habe.
