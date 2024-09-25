@@ -15,8 +15,8 @@
 | 9   | Alkoholpromillerechner (Mann) | Alkohol: 500, Gewicht: 80 | 8.93      |8.93                        |
 | 10  | Alkoholpromillerechner (Frau) | Alkohol: 400, Gewicht: 60 | 11.11     |11.11                        |
 | 11  | Schlafrechner | Aufstehzeit: 7, Schlafzeit: 8 | 11.00 (23.00)                    |11.00                       |
-| 12  | Kalorienrechner (Mann) | Gewicht: 75, Größe: 180, Alter: 30 | 1795.61 |1786.36                        |
-| 13  | Kalorienrechner (Frau) | Gewicht: 60, Größe: 165, Alter: 25 | 1417.23 |1403.6                        |
+| 12  | Kalorienrechner (Mann) | Gewicht: 75, Größe: 180, Alter: 30 | 1786.36 |1786.36                        |
+| 13  | Kalorienrechner (Frau) | Gewicht: 60, Größe: 165, Alter: 25 | 1403.6 |1403.6                        |
 | 14  | Flächenberechnung Trapez | a: 6, b: 8, h: 4 | 28                      |28                        |
 | 15  | Volumenberechnung Kegel | Radius: 3, Höhe: 4 | 37.70                  |37.70                        |
 
