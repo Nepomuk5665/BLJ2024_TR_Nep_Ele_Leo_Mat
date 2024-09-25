@@ -3,20 +3,20 @@
 
 #define PI 3.14159265359
 
-// Basic arithmetic operations
-int calc_sum(int a, int b);
-int calc_sub(int a, int b);
-int mult(int a, int b);
-int divide(int a, int b);
+// Grundlegende arithmetische Operationen
+int addiere(int a, int b);
+int subtrahiere(int a, int b);
+int multipliziere(int a, int b);
+int dividiere(int a, int b);
 
-// Area calculations
+// Flächenberechnungen
 double flaeche_kreis(double radius);
 double flaeche_quadrat(double a);
 double flaeche_rechteck(double a, double b);
 double flaeche_dreieck(double basis, double hoehe);
 double flaeche_trapez(double a, double b, double hoehe);
 
-// Volume calculations
+// Volumenberechnungen
 double volumen_kugel(double radius);
 double volumen_wuerfel(double a);
 double volumen_quader(double a, double b, double hoehe);

@@ -11,9 +11,7 @@ void zeige_menue() {
     printf("4. Dividieren\n");
     printf("5. Flächenberechnungen\n");
     printf("6. Volumenberechnungen\n");
-    printf("7. Mathematischen Ausdruck auswerten\n");
-    printf("8. Lineare Funktionstabelle generieren\n");
-    printf("9. Beenden\n");
+    printf("7. Beenden\n");
 }
 
 void bearbeite_grundoperation(int operation) {
@@ -139,26 +137,6 @@ void bearbeite_volumenberechnungen() {
     printf("Volumen: %.2f\n", ergebnis);
 }
 
-void bearbeite_ausdrucksauswertung() {
-    char ausdruck[MAX_AUSDRUCK_LAENGE];
-    printf("Gib einen mathematischen Ausdruck ein (max %d Zeichen): ", MAX_AUSDRUCK_LAENGE - 1);
-    scanf(" %[^\n]", ausdruck);
-    double ergebnis = berechne_ausdruck(ausdruck);
-    printf("Ergebnis: %.2f\n", ergebnis);
-}
-
-void bearbeite_lineare_funktionstabelle() {
-    double m, b;
-    int anzahl_punkte;
-    printf("Gib m für die Funktion mx+b ein: ");
-    scanf("%lf", &m);
-    printf("Gib b für die Funktion mx+b ein: ");
-    scanf("%lf", &b);
-    printf("Wie viele Punkte sollen generiert werden? ");
-    scanf("%d", &anzahl_punkte);
-    erstelle_lineare_funktionstabelle(m, b, anzahl_punkte);
-}
-
 int main() {
     int wahl;
 
@@ -181,12 +159,6 @@ int main() {
                 bearbeite_volumenberechnungen();
                 break;
             case 7:
-                bearbeite_ausdrucksauswertung();
-                break;
-            case 8:
-                bearbeite_lineare_funktionstabelle();
-                break;
-            case 9:
                 printf("Auf Wiedersehen!\n");
                 return 0;
             default:

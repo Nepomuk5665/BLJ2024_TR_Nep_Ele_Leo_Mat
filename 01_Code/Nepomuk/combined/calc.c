@@ -1,26 +1,29 @@
 #include "calc.h"
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
 
-// Basic arithmetic operations
-int calc_sum(int a, int b) {
+// Grundlegende arithmetische Operationen
+int addiere(int a, int b) {
     return a + b;
 }
 
-int calc_sub(int a, int b) {
+int subtrahiere(int a, int b) {
     return a - b;
 }
 
-int mult(int a, int b) {
+int multipliziere(int a, int b) {
     return a * b;
 }
 
-int divide(int a, int b) {
+int dividiere(int a, int b) {
     if (b != 0) {
         return a / b;
     }
-    return 0; // Error handling should be improved
+    return 0;
 }
 
-// Area calculations
+// Flächenberechnungen
 double flaeche_kreis(double radius) {
     return PI * radius * radius;
 }
@@ -41,7 +44,7 @@ double flaeche_trapez(double a, double b, double hoehe) {
     return 0.5 * (a + b) * hoehe;
 }
 
-// Volume calculations
+// Volumenberechnungen
 double volumen_kugel(double radius) {
     return (4.0 / 3.0) * PI * radius * radius * radius;
 }
